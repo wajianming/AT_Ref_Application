@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.63])
-AC_INIT([HelloApplication], [0.1], [wajianming@mgmail.com])
-AC_CONFIG_SRCDIR([src/dynamic_lib/HelloLib.cpp])
+AC_INIT([BoostThreadPractice], [0.1], [wajianming@mgmail.com])
+AC_CONFIG_SRCDIR([src/dynamic_lib/thread.cpp])
 AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.

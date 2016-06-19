@@ -1,6 +1,14 @@
 #include "HelloLib.h"
+
+#include "thread.h"
+#include <iostream>
 #include <iostream>
 
-int main(){
-    HelloLib lib;
+int main()
+{
+    RESOURCE_MONITOR::resource_observer observer;
+    while (true){
+        sleep(1);
+    }
+    exit(0);
 }
